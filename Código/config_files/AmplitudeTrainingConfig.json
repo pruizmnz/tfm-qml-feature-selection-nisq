@@ -1,0 +1,16 @@
+{
+    "val_method":{
+        "type":"manual_split",
+        "test_size":0.2
+    },
+
+    "use_val_set":"Y",
+
+    "featureSelection":{
+        "method":"none"
+    },
+
+    "normalization":{
+        "type":"amplitude"
+    }
+}

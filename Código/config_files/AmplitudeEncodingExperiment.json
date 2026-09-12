@@ -1,0 +1,37 @@
+{
+    "feature_map":[
+        {
+            "type":"amplitude"
+        }
+    ],
+
+    "ansatz":[
+        {
+            "type":"real_amplitudes",
+            "reps":2,
+            "entanglement":"linear"
+        },
+        {
+            "type":"efficient_su2",
+            "reps":2,
+            "entanglement":"linear"
+        },
+        {
+            "type":"real_amplitudes",
+            "reps":2,
+            "entanglement":"full"
+        },
+        {
+            "type":"real_amplitudes",
+            "reps":3,
+            "entanglement":"linear"
+        }
+    ],
+
+    "optimizer":[
+        {
+            "type":"cobyla",
+            "maxiter":500
+        }
+    ]
+}

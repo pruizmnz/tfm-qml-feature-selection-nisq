@@ -1,0 +1,39 @@
+{
+    "feature_map":[
+        {
+            "type":"pauli",
+            "reps":1,
+            "entanglement":"linear"
+        },
+        {
+            "type":"pauli",
+            "reps":2,
+            "entanglement":"linear"
+        },
+        {
+            "type":"pauli",
+            "reps":1,
+            "entanglement":"circular"
+        },
+        {
+            "type":"pauli",
+            "reps":2,
+            "entanglement":"circular"
+        }
+    ],
+
+    "ansatz":[
+        {
+            "type":"real_amplitudes",
+            "reps":2,
+            "entanglement":"linear"
+        }
+    ],
+
+    "optimizer":[
+        {
+            "type":"cobyla",
+            "maxiter":500
+        }
+    ]
+}

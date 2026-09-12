@@ -1,0 +1,13 @@
+{
+    "val_method":{
+        "type":"manual_split"
+    },
+
+    "use_val_set":"Y",
+
+    "featureSelection":{
+        "method":"UMAP",
+        "methodParams":{},
+        "numFeatures":[2,4,6,8,10]
+    }
+}

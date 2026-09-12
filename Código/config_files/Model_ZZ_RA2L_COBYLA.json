@@ -1,0 +1,29 @@
+{
+    "feature_map":[
+        {
+            "type":"zz",
+            "reps":1,
+            "entanglement":"linear"
+        },
+        {
+            "type":"zz",
+            "reps":1,
+            "entanglement":"circular"
+        }
+    ],
+
+    "ansatz":[
+        {
+            "type":"real_amplitudes",
+            "reps":2,
+            "entanglement":"linear"
+        }
+    ],
+
+    "optimizer":[
+        {
+            "type":"cobyla",
+            "maxiter":500
+        }
+    ]
+}
